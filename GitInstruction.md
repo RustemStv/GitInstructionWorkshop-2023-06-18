@@ -26,6 +26,13 @@ Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you c
 Необходимо ввести команды:
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
+Необходимо инциилизировать репозиторий:
+В терминале переходим к папке, в которой хотим создать репозиторий.
+Выполняем команду:
+```
+git init
+```
+В исходной папке появится скрытая папка **.git**
 
 ## Создание и базовая работа с локальным репозиторием.
 
